@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 # This is for easy searching files
 WHICH="/usr/bin/which"
@@ -58,6 +58,7 @@ do
                         ;;
                 e)
                         MODE="exact"
+                        OPTION="-name"
                         ;;
                 s)
                         MODE="script"
