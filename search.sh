@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 # This is for easy searching files
 WHICH="/usr/bin/which"
