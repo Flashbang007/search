@@ -6,7 +6,7 @@ FIND="/usr/bin/find"
 PWD="/bin/pwd"
 SEARCHPATTERN=${@:$#}
 SEARCHPATH=$($PWD)
-OPTION="-name"
+OPTION="-iname"
 
 #Colors#
 CRESTORE='\033[0m'
